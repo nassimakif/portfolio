@@ -1,0 +1,23 @@
+.img-center {
+	text-align: center;
+	margin-top: 0/* poussé de la moitié de hauteur de viewport */
+ 	transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+.img {
+	text-align: center;
+	vertical-align:middle;
+	position:relative;
+}
+
+#hoover-1 a {
+	display: inline-block;
+	background: url("img/linkedin-logo-hoover.png") no-repeat;
+}
+
+#hoover-2 a {
+	display: inline-block;
+	background: url("img/github-logo-hoover.png") no-repeat;
+}
+
+#hoover-1 a:hover img, #hoover-2 a:hover img {
+	visibility: hidden;
