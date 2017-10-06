@@ -21,3 +21,8 @@
 
 #hoover-1 a:hover img, #hoover-2 a:hover img {
 	visibility: hidden;
+}
+
+.inline-block {
+	display: inline-block;
+}
